@@ -16,4 +16,4 @@ def download_text(url, path=""):
     open("files/" + path, 'w').write(r.read().decode('utf-8'))
 
 download_img("https://www.facebook.com/favicon.ico")
-download_text("https://raw.githubusercontent.com/Fisherman386/Sample-Text-Creator/76067bab4d68ac5322a2b91b42cccd960ab160e2/languages.json","langs.json")
+download_text("https://raw.githubusercontent.com/Fisherman386/Sample-Text-Creator/76067bab4d68ac5322a2b91b42cccd960ab160e2/languages.json","my_path/langs.json")
